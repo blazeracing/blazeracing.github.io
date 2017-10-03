@@ -1,0 +1,44 @@
+.arrowExt{
+  font-size: 60px;
+  color: white;
+  transition: font-size 0.4s, color 0.4s;
+}
+
+.arrowExt:hover{
+  color: #e03e53;
+  font-size: 80px;
+}
+
+.first-parallax{
+  background: url(/Images/index-CarWithGrad.png);
+  background-position: top;
+}
+
+.second-parallax{
+  background: url(/Images/index-CarNoGrad.png);
+  background-position: top;
+}
+
+.third-parallax{
+  background: url(/Images/index-render.jpg);
+  background-position: top;
+}
+
+#gsponsor-list{
+  width: 100%;
+  margin: 9px;
+  margin-top: 40px;
+}
+
+#gsponsor-list td{
+  width: 50%;
+}
+
+#gsponsor-list img{
+  height: 120px;
+}
+
+.gsponsor-name{
+  font-weight: bold;
+  text-transform: uppercase;
+}
