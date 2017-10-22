@@ -154,6 +154,19 @@ a:hover{
   margin-bottom:15px;
 }
 
+.container .subtitle{
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom:15px;
+}
+.tm{
+  font-size: 12px;
+  font-kerning: none;
+}
+
 .container-dark .title{
   text-align: left;
   font-size: 18px;
@@ -166,4 +179,16 @@ a:hover{
   font-family: Product Sans;
   font-size: 16px;
   order: 2;
+}
+
+.social-row{
+  transition: opacity 0.4s;
+}
+.social-row:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.social{
+  width: 35px;
 }

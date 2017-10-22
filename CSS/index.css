@@ -20,7 +20,7 @@
 }
 
 .third-parallax{
-  background: url(/Images/index-render.jpg);
+  background: url(/Images/index-image.jpg);
   background-position: top;
 }
 
@@ -47,7 +47,9 @@
 }
 
 #gsponsor-list img{
-  height: 120px;
+  display: block;
+  margin: auto;
+  width: 55%;
 }
 
 #osp-list img{
