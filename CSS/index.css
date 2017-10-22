@@ -30,12 +30,30 @@
   margin-top: 40px;
 }
 
+#osp-list{
+  margin: 9px;
+  margin-top: 40px;
+  white-space: nowrap;
+  width: 100%;
+  display: table;
+}
+
 #gsponsor-list td{
   width: 50%;
 }
 
+#osp-list div{
+  display: table-cell;
+}
+
 #gsponsor-list img{
   height: 120px;
+}
+
+#osp-list img{
+  display: block;
+  margin: auto;
+  height: 90px;
 }
 
 .gsponsor-name{

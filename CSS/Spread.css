@@ -86,3 +86,13 @@ p{
   margin: 0 auto;
   padding-top:10px;
 }
+
+#game-grid{
+  width:80%;
+}
+
+.grid-table-cell{
+  border:1px solid white;
+  width: 5%;
+  height: 4vw;
+}
