@@ -3,6 +3,7 @@ var gridMap = [];
 var activeCell;
 var fireSpeed = 1.07;
 var cellSpeed = 1;
+var litcoin = 0;
 
 var keepTime = false;
 var timer = 0;
@@ -33,7 +34,7 @@ $("#btn-play").click(function(){
   $("#game-entry-form").hide();
   $("#head-spacer").hide();
   $("#game-space").show();
-  $("#game-instruction").html("Click on a cell in the grid to start your fire.");
+  $("#game-instruction").html("Click on a square in the grid to start your fire.");
 });
 
 $("#game-grid").on("click",".grid-table-cell", function(){
@@ -41,10 +42,11 @@ $("#game-grid").on("click",".grid-table-cell", function(){
     keepTime = true;
   }
   if((activeCell == undefined && gridMap[parseInt($(this).attr("id").substr(2),10)] == false) || cellCount == 0 ){
-    $("#game-instruction").html("Wait for the cell to burn!");
+    $("#game-instruction").html("Wait for the square to burn!");
     cellCount++;
     activeCell = parseInt($(this).attr("id").substr(2),10);
     gridMap[activeCell] = 0.02;
+    $("#td"+activeCell).css("border-color", "#ccc");
     console.log(cellCount);
 
 
