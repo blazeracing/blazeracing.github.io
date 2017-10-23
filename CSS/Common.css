@@ -138,20 +138,26 @@ a:hover{
 
 .container{
   padding: 50px;
-  background: white;
+  background: #eee;
   color: #444;
   font-family: Product Sans;
   font-size: 22px;
-  margin-bottom: 40px;
   order: 2;
 }
 
 .container .title, .container-dark .title{
   font-size: 35px;
+  color: #333;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 800;
   text-align: center;
+  letter-spacing: 1px;
   margin-bottom:15px;
+}
+
+.container .title-sp{
+  font-size: 35px;
+  color: #e03e53;
 }
 
 .container .subtitle{
@@ -162,9 +168,16 @@ a:hover{
   margin-top: 20px;
   margin-bottom:15px;
 }
+
 .tm{
   font-size: 12px;
   font-kerning: none;
+}
+
+.inpage-image{
+  width: 100%;
+  margin: 0;
+  display: block;
 }
 
 .container-dark .title{
