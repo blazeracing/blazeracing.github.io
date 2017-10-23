@@ -171,7 +171,7 @@ a:hover{
 
 .tm{
   font-size: 12px;
-  font-kerning: none;
+  letter-spacing: 0px;
 }
 
 .inpage-image{
@@ -183,6 +183,7 @@ a:hover{
 .container-dark .title{
   text-align: left;
   font-size: 18px;
+  color: #fff;
 }
 
 .container-dark{
@@ -197,6 +198,7 @@ a:hover{
 .social-row{
   transition: opacity 0.4s;
 }
+
 .social-row:hover{
   opacity: 0.7;
   cursor: pointer;

@@ -9,20 +9,27 @@
   color: #e03e53;
 }
 
+.parallax{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
 .first-parallax{
   background: url(/Images/index-CarWithGrad.png);
   background-position: top;
 }
 
-.second-parallax{
-  background: url(/Images/index-CarNoGrad.png);
-  background-position: top;
+#cont1{
+  border-top: 6px solid #333;
 }
 
-.third-parallax{
-  background: url(/Images/index-image.jpg);
-  background-position: top;
+#cont2{
+  border-top: 6px solid #e03e53;
 }
+
 
 #gsponsor-list{
   width: 100%;
