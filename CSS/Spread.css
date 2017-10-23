@@ -43,6 +43,7 @@ h2{
 input[type="text"]{
   height: 50px;
   width: 90%;
+  min-width: 300px;
   max-width: 500px;
   display: block;
   margin: 0 auto;
@@ -97,12 +98,28 @@ input:focus{
   text-decoration: underline;
 }
 
-#game-grid{
-  width:80%;
+#game-space{
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+  min-height: 100%;
+}
+
+#game-instruction{
+  height: 100px;
 }
 
 .grid-table-cell{
-  border:1px solid white;
-  width: 5%;
-  height: 4vw;
+  border: 2px solid black;
+  width: 70px;
+  height: 70px;
+}
+
+#leader-table{
+
+}
+
+#leader-table td{
+  border: 1px solid white;
+  border-collapse: collapse;
 }
