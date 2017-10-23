@@ -38,13 +38,13 @@ $("#btn-play").click(function(){
     $("#game-space").show();
     $("#game-instruction").html("Click on a square in the grid to start your fire.");
   }
-  else if($("#player-name").val().length>=3){
-    $("#player-name").css("border-color", "#f00");
-    $("#player-team").css("border-color", "#fff");
-  }
-  else if($("#player-team").val().length>=3){
+  else if($("#player-name").val().length>=3  && !($("#player-team").val().length>=3)){
     $("#player-name").css("border-color", "#fff");
     $("#player-team").css("border-color", "#f00");
+  }
+  else if($("#player-team").val().length>=3){
+    $("#player-name").css("border-color", "#f00");
+    $("#player-team").css("border-color", "#fff");
   }
   else{
     $("#player-name").css("border-color", "#f00");
