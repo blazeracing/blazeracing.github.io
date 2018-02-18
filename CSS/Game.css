@@ -1,0 +1,153 @@
+body{
+  background: #e03e53;
+  color: white;
+  background: linear-gradient(135deg, #e03e53 0%,#e0b5c2 100%);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2{
+  font-size: 45px;
+  margin: 15px;
+  letter-spacing: 1.2px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+
+h2{
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+.center{
+  text-align: center;
+}
+
+#head-spacer{
+  height: 22%;
+}
+
+#under-spacer{
+  height: 20px;
+}
+
+#logo-text{
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="text"]{
+  height: 50px;
+  width: 90%;
+  min-width: 300px;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  font-family: Product Sans;
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+  border: 3px solid white;
+  border-radius: 10px;
+  transition: border 0.4s;
+  background:rgba(0,0,0,0);
+}
+
+input:focus{
+  outline: none;
+  border: 3px solid #333;
+}
+::-webkit-input-placeholder { /* Chromium*/
+  color: #ddd;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ddd;
+}
+
+.input-button{
+  padding-top: 6px;
+  padding-bottom: 7px;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  font-family: Product Sans;
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+  border: 3px solid white;
+  border-radius: 10px;
+  transition: color 0.4s, background 0.4s;
+  background:rgba(0,0,0,0.4);
+}
+.input-button:hover{
+  color: #333;
+  background: #fff;
+  cursor: pointer;
+}
+
+.under{
+  text-decoration: underline;
+}
+
+#game-space{
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+  margin-left: 10px;
+  min-height: 100%;
+  text-align: left;
+}
+
+#game-instruction{
+  height: 100px;
+  margin: 0px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+p{
+  margin: 5px;
+  text-align: left;
+}
+
+#ip1{
+    margin-top: 25px;
+}
+
+p.center{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.grid-table-cell{
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+#cell-power{
+  width: 100%;
+}
+
+#cell-power td{
+  height: 35px;
+  font-size: 24px;
+}
+
+.buy{
+  color: #e03e53;
+  transition: color 0.4s;
+}
+.buy:hover{
+  cursor: pointer;
+  color:#e02372;
+}
